@@ -1672,9 +1672,9 @@ GameObject:
   - component: {fileID: 1357662587}
   - component: {fileID: 1357662590}
   - component: {fileID: 1357662589}
-  - component: {fileID: 1357662588}
   - component: {fileID: 1357662592}
   - component: {fileID: 1357662591}
+  - component: {fileID: 1357662588}
   m_Layer: 5
   m_Name: Press Space
   m_TagString: Untagged
