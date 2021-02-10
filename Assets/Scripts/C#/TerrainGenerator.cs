@@ -35,7 +35,7 @@ public class TerrainGenerator : MonoBehaviour
         var bounds = GetCameraBounds();
         var end = new Vector2(bounds.xMax, bounds.yMin);
         var maxHeight = bounds.height / 2;
-        var range = (bounds.width / numberOfPoints);
+        var range = ((bounds.width + 10) / numberOfPoints);
 
         // Clear Sprite Shape and set first position
         var spline = _ss.spline;
