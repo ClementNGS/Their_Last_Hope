@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Ground
+  - DestroyDecor
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Decor
+  - Ground
   - 
   - 
   - 
@@ -44,4 +46,7 @@ TagManager:
     locked: 0
   - name: PlayerInvincible
     uniqueID: 3696238349
+    locked: 0
+  - name: Decor
+    uniqueID: 2555801421
     locked: 0
