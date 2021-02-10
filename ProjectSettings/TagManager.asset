@@ -42,3 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: PlayerInvincible
+    uniqueID: 3696238349
+    locked: 0

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3903881224745699731}
   - component: {fileID: 3903881224745699740}
   - component: {fileID: 3903881224745699741}
+  - component: {fileID: 5433347562071894882}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Enemy
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0081830025, y: 0.012757957}
@@ -184,3 +185,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 61e44721aee694c449867d03bca0c1e4, type: 2}
+--- !u!114 &5433347562071894882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903881224745699742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 8c80a61ef2b603645a5432630133453d, type: 2}
