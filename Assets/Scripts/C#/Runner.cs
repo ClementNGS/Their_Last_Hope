@@ -21,6 +21,8 @@ public class Runner : MonoBehaviour
 
     public Runner instance;
     public float currentSpeed => _speed;
+
+    public static float RunnerSpeed = 0;
     
     void Start()
     {
@@ -46,5 +48,6 @@ public class Runner : MonoBehaviour
         _tg.DrawTerrain();
         
         Variables.ActiveScene.Set("RunnerSpeed", _speed * Time.deltaTime);
+        RunnerSpeed = _speed * Time.deltaTime;
     }
 }
